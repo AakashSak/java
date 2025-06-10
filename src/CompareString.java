@@ -13,7 +13,12 @@ public class CompareString
         System.out.println("First Sentence"+sentence1);
         System.out.println("Second Sentence" + sentence2);
 
+        // tryin to compare the address
         System.out.println(sentence1==sentence2);
+        //trying to compare the content
+        System.out.println(sentence1.equals(sentence2));
+        //trying to compare the content ignorint case
+        System.out.println(sentence1.equalsIgnoreCase(sentence2));
 
     }
 }
