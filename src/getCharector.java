@@ -4,7 +4,7 @@ public class getCharector
         String a= "Aakash";
         String b = new String("LearnJava");
 
-        char result = a.charAt(3);
+        char result = a.charAt(2);
         char result1 = b.charAt(4);
 
         System.out.println(a+" "+ result);
