@@ -13,7 +13,7 @@ public class isStringPalindrom
         {
           reverse = reverse + Sentence.charAt(i);
         }
-        if (Sentence.equals(reverse))
+        if (Sentence.equalsIgnoreCase(reverse))
         {
             System.out.println("It is Palindrom");
         }
