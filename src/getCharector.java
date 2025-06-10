@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public class getCharector
+{
+    public static void main(String[] args) {
+        String a= "Aakash";
+        String b = new String("LearnJava");
 
-public class getCharector {
+        char result = a.charAt(3);
+        char result1 = b.charAt(4);
+
+        System.out.println(a+" "+ result);
+        System.out.println(b+" "+ result1);
+    }
 }
