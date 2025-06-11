@@ -1,14 +1,16 @@
 public class RemoveDuplicatesInWord {
     public static void main(String[] args) {
-        String input = "developer cat apple abca"; // Removed unnecessary commas
-        String[] ss = input.split(" "); // Corrected string splitting
+        String input = "developer cat apple abca";
+        String[] ss = input.split(" ");
 
         String output = "";
-        for (int i = 0; i < ss.length; i++) {
-            output += removeRepeated(ss[i]) + " "; // Corrected array handling
+
+        for (int i = 0; i < ss.length; i++)
+        {
+            output  +=  removeRepeated(ss[i]) + " ";
         }
 
-        System.out.println(output.trim()); // Removes extra spaces at the end
+        System.out.println(output.trim());
     }
 
     public static String removeRepeated(String word) {
@@ -18,7 +20,6 @@ public class RemoveDuplicatesInWord {
         for (int i = 0; i < letters.length; i++) {
             boolean exists = false;
 
-            // Check if character already exists in the result string
             for (int j = 0; j < result.length(); j++) {
                 if (result.charAt(j) == letters[i]) {
                     exists = true;
@@ -26,9 +27,9 @@ public class RemoveDuplicatesInWord {
                 }
             }
 
-            // Append character only if it's not already present
+
             if (!exists) {
-                result += letters[i]; // Using simple string concatenation
+                result += letters[i];
             }
         }
         return result;
