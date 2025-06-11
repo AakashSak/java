@@ -15,7 +15,7 @@ public class PalindromeInSubstring {
             for (int j = i; j < s.length(); j++) {
 
                 String sub = s.substring(i, j + 1);
-                System.out.print(sub + " ");
+                System.out.print(sub + ",");
 
                 if (isPalindrom(sub) && sub.length() > 1) {
                     Palindromes.add(sub);
