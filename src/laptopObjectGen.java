@@ -17,5 +17,10 @@ public class laptopObjectGen
 
         laptopObject ref3 = new laptopObject("Apple-Macbook","Metalic-Silver",110000.00);
         ref3.details();
+        System.out.println();
+
+        ref1.writtingCode();
+        ref3.watchingmovies();
+
     }
 }

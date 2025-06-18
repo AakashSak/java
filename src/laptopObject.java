@@ -7,12 +7,12 @@ public class laptopObject
 
     public void writtingCode()
     {
-        System.out.println(owner+" is Useing to write codes in"+brand + "laptop");
+        System.out.println(owner+" is Useing to write codes in\t"+brand + "\tlaptop");
     }
 
-    public void Watchingmovies()
+    public void watchingmovies()
     {
-        System.out.println(owner+" is Useing to watch movies in"+brand + "laptop");
+        System.out.println(owner+" is Useing to watch movies in\t"+brand + "\tlaptop");
     }
 
     public laptopObject()
