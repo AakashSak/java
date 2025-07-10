@@ -1,86 +1,94 @@
 import java.util.*;
 public class AadharObject
 {
-//    -aadhar name,-aadhar no,-aadhar contact ,-aadhar address
+    private String name,address;
+    private long contact,aadharNo;
+
     static Scanner ref = new Scanner(System.in);
 
-    private String name;
-    private long aadharno;
-    private long contact;
-    private String address;
-
-    AadharObject( String name , long aadharno , long contact , String address)
+    AadharObject (String name,String address,long contact,long aadharNo)
     {
         this.name=name;
-        this.aadharno=aadharno;
-        this.contact=contact;
         this.address=address;
+        this.contact=contact;
+        this.aadharNo=aadharNo;
     }
-
-    public boolean doverification()
+//contact verification
+    public boolean doVerification() throws Exception
     {
-        System.out.println("Enter the contact number");
+        System.out.print("Enter the Contact NO:");
         long user_contact = ref.nextLong();
-        if (contact==user_contact)
+        if (contact == user_contact)
         {
-            int sys_otp = (int) (Math.random()*9999+9999);
-            System.out.println("Enter the otp");
+            System.out.print("Enter the OTP :"); Thread.sleep(3000);
+            int sys_otp =  1000 + (int) (Math.random() * 9000 );
             System.out.println(sys_otp);
             int user_otp = ref.nextInt();
-            if (user_otp==sys_otp)
+            if (user_otp == sys_otp)
+            {
                 return true;
+            }
+
         }
+        System.out.println("Verification was failed. Plz try again later");
         return false;
+
     }
 
-    public String getName ()
+    public String getName()
     {
         return name;
     }
 
-    public long getAadharno()
-    {
-        return  aadharno;
-    }
-    public long getContact()
-    {
-        return contact;
-    }
     public String getAddress()
     {
         return address;
     }
 
-    public void setName(String name)
+    public long getContact()
     {
-        if (doverification())
+        return contact;
+    }
+
+    public long getAadharNo()
+    {
+        return aadharNo;
+    }
+
+    //Setter Methods name,address,contact,aadhar_no
+    public void setName(String name) throws Exception
+    {
+        if (doVerification())
         {
             this.name=name;
-            System.out.println("Name was updated");
+            System.out.println("Verification Success. Your Name was updated Successfully");
         }
-        else
-        {
-            System.out.println("Verification was failed so try again later");
+        else {
+            System.out.println("Verification was failed & Name was not Updated");
         }
     }
 
-    public void setContact(long contact)
+    public void setAddress(String address) throws Exception
     {
-        if (doverification())
-        {
-            this.contact=contact;
-            System.out.println("Contact Was updated");
-        }
-        else
-        {
-            System.out.println("Verification was failed so try again later");
-        }
-    }
-    public void setAddress(String address)
-    {
-        if (doverification())
+        if (doVerification())
         {
             this.address=address;
+            System.out.println("Verification Success. Your Address was updated Successfully");
+        }
+        else {
+            System.out.println("Verification was failed & Address was not Updated");
+        }
+    }
+
+    public void setContact(long contact)throws Exception
+    {
+        if (doVerification())
+        {
+            this.contact=contact;
+            System.out.println("Verification Success. Your Contact was updated Successfully");
+        }
+        else {
+            System.out.println("Verification was failed & Contact was not Updated");
         }
     }
 
