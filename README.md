@@ -6,7 +6,7 @@ Welcome to my GitHub! I'm a passionate developer focused on building solid found
 
 ## 🔧 Tech Stack
 
-- 💻 **Languages**: Java, HTML5, SQL (in progress)
+- 💻 **Languages**: Java, HTML5, SQL .
 - 🔍 **Skills**: Core algorithm development, debugging, logic refinement
 - 🎨 **Frontend**: HTML5 (forms, tables, media tags, semantic layouts)
 - 🌐 **Tools**: Git, GitHub, VS Code
