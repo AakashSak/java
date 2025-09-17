@@ -1,6 +1,7 @@
 # 👋 Hi, I'm Aakash S
 
-🎯 **Aspiring Software Developer** | 💻 Java & SQL Enthusiast | 🌐 Front-End Builder  
+💻 **Aspiring Software Developer** | Java • JDBC • SQL (Oracle & MySQL) • HTML • CSS • JavaScript  
+🎯 Blending backend logic with engaging UI/UX design to deliver polished, high‑quality solutions  
 📍 Kancheepuram, Tamil Nadu, India  
 📧 [aakashsamuthirapandi@gmail.com](mailto:aakashsamuthirapandi@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/aakash-s-a253822b3) | [GitHub](https://github.com/AakashSak)
@@ -9,59 +10,68 @@
 
 ## 🚀 About Me
 
-I'm a Java developer with a strong foundation in object-oriented programming and a passion for building responsive, user-friendly web interfaces. With over **400+ SQL queries** written and hands-on experience in both front-end and back-end development, I thrive on clean logic, modular code, and polished outputs.
+I’m a **Java & SQL developer** with strong **OOP** and modular coding expertise, experienced in building responsive, user‑friendly web interfaces and integrating applications with relational databases.  
 
-Currently seeking a **full-time software development role** where I can contribute meaningfully and grow with a dynamic team.
+- **400+ SQL queries** written in Oracle SQL\*Plus, with additional MySQL experience  
+- Skilled in **CRUD operations**, sub‑queries, grouping, and database normalization  
+- Proficient in **GitHub version control** and **Prompt Engineering** for structured AI outputs  
+- Passionate about **clean code, performance optimization, and creative UI/UX**  
 
----
-
-## 🛠️ Technical Skills
-
-- **Java**: OOP, console apps, exception handling, modular design  
-- **SQL (Oracle SQL*Plus)**: 400+ queries, subqueries, normalization, DDL/DML/TCL/DCL/DQL  
-- **HTML5 & CSS3**: Semantic layout, Flexbox, responsive design  
-- **JavaScript**: DOM manipulation, CRUD operations, JSON  
-- **Prompt Engineering & Blogging**: Iterative learning, clear documentation
+Currently seeking a **full‑time software development role** where I can contribute meaningfully and grow with a dynamic team.
 
 ---
 
-## 📚 Education
+## 🛠 Technical Skills
 
-- 🎓 **B.A. in English Literature** – Alagappa University *(May 2024)*  
-- 🏥 **Health/Sanitary Inspector Certification** – Rojavanam Paramedical College *(Dec 2022)*
+- **Languages:** Java, SQL (Oracle SQL\*Plus, MySQL), HTML5, CSS3, JavaScript  
+- **Core Skills:** OOP, modular coding, debugging, performance optimization  
+- **Database:** CRUD operations, sub‑queries, grouping, normalization, DDL/DML/TCL/DCL/DQL  
+- **Tools & Frameworks:** JDBC, GitHub, Prompt Engineering  
+- **Design:** Responsive UI/UX, semantic HTML, Flexbox, DOM manipulation
 
 ---
 
 ## 💼 Projects
 
-### 🔹 Swiggy Restaurant Ordering System *(Java)*
-Simulates restaurant ordering with dynamic menus, billing logic, and OTP-based payment verification.
+### 🎬 Movie Booking & Management System *(Java, JDBC)*  
+Java‑MySQL app for real‑time movie record management with CRUD operations.  
+[🔗 View Project](#)
 
-### 🔹 Aadhar Information Management System *(Java)*
-Secure user data updates using contact matching and OTP validation.
+### 🤖 ChatGPT Prompt Automation *(Prompt Engineering)*  
+Designed prompts for structured, accurate, and automated AI responses.  
+[🔗 View Project](#)
 
-### 🔹 Zoologischer Garten Web Page *(HTML)*
-Virtual zoo tour with structured layout and embedded animal images.
+### 🍽 Swiggy Restaurant Ordering System *(Java)*  
+Simulates restaurant ordering with dynamic menus, billing logic, and OTP‑based payment verification.  
+[🔗 View Project](#)
 
-### 🔹 Qspider Student Registration Form *(HTML)*
-Captures user input with organized form fields and basic validation.
+### 🆔 Aadhar Information Management System *(Java)*  
+Secure user data updates using contact matching and OTP validation.  
+[🔗 View Project](#)
 
-### 🔹 Facebook Login Page Clone *(HTML & CSS)*
-Responsive recreation of Facebook’s login UI with styled components.
+### 🖥 GitHub Login Page Clone *(JavaScript)*  
+Built a responsive GitHub‑style login UI using pure JavaScript without external HTML/CSS.  
+[🔗 View Project](#)
 
-### 🔹 Login and Signup Page Design *(HTML & CSS)*
-Gradient-themed form with Flexbox layout and hover effects.
+### 🏷 GS Snacks Branding & Label Design  
+Created professional product labels with precise alignment, clear branding, and compliance to packaging standards.  
+[🔗 View Project](#)
+
+---
+
+## 📊 GitHub Stats
+
+![Aakash's GitHub stats](https://github-readme-stats.vercel.app/api?username=AakashSak&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AakashSak&layout=compact&theme=tokyonight)
 
 ---
 
 ## 📬 Let's Connect
 
-I'm open to exciting opportunities in software development. If you're hiring or collaborating on tech projects, feel free to reach out!
-
 📧 [Email Me](mailto:aakashsamuthirapandi@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/aakash-s-a253822b3)
+🔗 [LinkedIn](https://linkedin.com/in/aakash-s-a253822b3)  
+💻 [GitHub](https://github.com/AakashSak)
 
 ---
 
-> “Code is not just logic—it’s how creativity meets precision.”
-
+> *"Code is not just logic — it’s where creativity meets precision."*
